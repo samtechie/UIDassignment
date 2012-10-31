@@ -25,3 +25,6 @@ group :development, :test do
   gem 'sqlite3'
 end
 gem "pg",">=0.12.2", :group => :production
+group :production do
+  gem 'thin'
+end
